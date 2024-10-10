@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #097de2;
+  margin: auto;
+}
+p {
+  text-align: justify;
+  line-height: 1.6;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+h2 {
+  border-bottom: 2px solid #2c3e50;
+  padding-bottom: 5px;
+  color: #2980b9;
+}
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #1a5276;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+th {
+  background-color: #2980b9;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+form {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  background-color: #2980b9;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #1a5276;
+}
+
+#first {
+  border-top: groove;
+  border-color: #2980b9;
+  color: #2980b9;
+}
+
+#p1 {
+  text-align: center;
+}
